@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		514B65552E1D5C7F004C9AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 514B653F2E1D5C7E004C9AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 514B65462E1D5C7E004C9AC1;
+			remoteInfo = AspenTrip;
+		};
+		514B655F2E1D5C7F004C9AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 514B653F2E1D5C7E004C9AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 514B65462E1D5C7E004C9AC1;
+			remoteInfo = AspenTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		514B65472E1D5C7E004C9AC1 /* AspenTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspenTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		514B65542E1D5C7F004C9AC1 /* AspenTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspenTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		514B655E2E1D5C7F004C9AC1 /* AspenTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspenTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		514B65752E1D7051004C9AC1 /* Exceptions for "AspenTrip" folder in "AspenTrip" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 514B65462E1D5C7E004C9AC1 /* AspenTrip */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		514B65492E1D5C7E004C9AC1 /* AspenTrip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				514B65752E1D7051004C9AC1 /* Exceptions for "AspenTrip" folder in "AspenTrip" target */,
+			);
+			path = AspenTrip;
+			sourceTree = "<group>";
+		};
+		514B65572E1D5C7F004C9AC1 /* AspenTripTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AspenTripTests;
+			sourceTree = "<group>";
+		};
+		514B65612E1D5C7F004C9AC1 /* AspenTripUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AspenTripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		514B65442E1D5C7E004C9AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514B65512E1D5C7F004C9AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514B655B2E1D5C7F004C9AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		514B653E2E1D5C7E004C9AC1 = {
+			isa = PBXGroup;
+			children = (
+				514B65492E1D5C7E004C9AC1 /* AspenTrip */,
+				514B65572E1D5C7F004C9AC1 /* AspenTripTests */,
+				514B65612E1D5C7F004C9AC1 /* AspenTripUITests */,
+				514B65482E1D5C7E004C9AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		514B65482E1D5C7E004C9AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				514B65472E1D5C7E004C9AC1 /* AspenTrip.app */,
+				514B65542E1D5C7F004C9AC1 /* AspenTripTests.xctest */,
+				514B655E2E1D5C7F004C9AC1 /* AspenTripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		514B65462E1D5C7E004C9AC1 /* AspenTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514B65682E1D5C7F004C9AC1 /* Build configuration list for PBXNativeTarget "AspenTrip" */;
+			buildPhases = (
+				514B65432E1D5C7E004C9AC1 /* Sources */,
+				514B65442E1D5C7E004C9AC1 /* Frameworks */,
+				514B65452E1D5C7E004C9AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				514B65492E1D5C7E004C9AC1 /* AspenTrip */,
+			);
+			name = AspenTrip;
+			packageProductDependencies = (
+			);
+			productName = AspenTrip;
+			productReference = 514B65472E1D5C7E004C9AC1 /* AspenTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		514B65532E1D5C7F004C9AC1 /* AspenTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514B656B2E1D5C7F004C9AC1 /* Build configuration list for PBXNativeTarget "AspenTripTests" */;
+			buildPhases = (
+				514B65502E1D5C7F004C9AC1 /* Sources */,
+				514B65512E1D5C7F004C9AC1 /* Frameworks */,
+				514B65522E1D5C7F004C9AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				514B65562E1D5C7F004C9AC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				514B65572E1D5C7F004C9AC1 /* AspenTripTests */,
+			);
+			name = AspenTripTests;
+			packageProductDependencies = (
+			);
+			productName = AspenTripTests;
+			productReference = 514B65542E1D5C7F004C9AC1 /* AspenTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		514B655D2E1D5C7F004C9AC1 /* AspenTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514B656E2E1D5C7F004C9AC1 /* Build configuration list for PBXNativeTarget "AspenTripUITests" */;
+			buildPhases = (
+				514B655A2E1D5C7F004C9AC1 /* Sources */,
+				514B655B2E1D5C7F004C9AC1 /* Frameworks */,
+				514B655C2E1D5C7F004C9AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				514B65602E1D5C7F004C9AC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				514B65612E1D5C7F004C9AC1 /* AspenTripUITests */,
+			);
+			name = AspenTripUITests;
+			packageProductDependencies = (
+			);
+			productName = AspenTripUITests;
+			productReference = 514B655E2E1D5C7F004C9AC1 /* AspenTripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		514B653F2E1D5C7E004C9AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					514B65462E1D5C7E004C9AC1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					514B65532E1D5C7F004C9AC1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 514B65462E1D5C7E004C9AC1;
+					};
+					514B655D2E1D5C7F004C9AC1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 514B65462E1D5C7E004C9AC1;
+					};
+				};
+			};
+			buildConfigurationList = 514B65422E1D5C7E004C9AC1 /* Build configuration list for PBXProject "AspenTrip" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 514B653E2E1D5C7E004C9AC1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 514B65482E1D5C7E004C9AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				514B65462E1D5C7E004C9AC1 /* AspenTrip */,
+				514B65532E1D5C7F004C9AC1 /* AspenTripTests */,
+				514B655D2E1D5C7F004C9AC1 /* AspenTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		514B65452E1D5C7E004C9AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514B65522E1D5C7F004C9AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514B655C2E1D5C7F004C9AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		514B65432E1D5C7E004C9AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514B65502E1D5C7F004C9AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514B655A2E1D5C7F004C9AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		514B65562E1D5C7F004C9AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 514B65462E1D5C7E004C9AC1 /* AspenTrip */;
+			targetProxy = 514B65552E1D5C7F004C9AC1 /* PBXContainerItemProxy */;
+		};
+		514B65602E1D5C7F004C9AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 514B65462E1D5C7E004C9AC1 /* AspenTrip */;
+			targetProxy = 514B655F2E1D5C7F004C9AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		514B65662E1D5C7F004C9AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		514B65672E1D5C7F004C9AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		514B65692E1D5C7F004C9AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AspenTrip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parceltracker.AspenTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		514B656A2E1D5C7F004C9AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AspenTrip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parceltracker.AspenTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		514B656C2E1D5C7F004C9AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parceltracker.AspenTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspenTrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AspenTrip";
+			};
+			name = Debug;
+		};
+		514B656D2E1D5C7F004C9AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parceltracker.AspenTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspenTrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AspenTrip";
+			};
+			name = Release;
+		};
+		514B656F2E1D5C7F004C9AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parceltracker.AspenTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AspenTrip;
+			};
+			name = Debug;
+		};
+		514B65702E1D5C7F004C9AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parceltracker.AspenTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AspenTrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		514B65422E1D5C7E004C9AC1 /* Build configuration list for PBXProject "AspenTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514B65662E1D5C7F004C9AC1 /* Debug */,
+				514B65672E1D5C7F004C9AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514B65682E1D5C7F004C9AC1 /* Build configuration list for PBXNativeTarget "AspenTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514B65692E1D5C7F004C9AC1 /* Debug */,
+				514B656A2E1D5C7F004C9AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514B656B2E1D5C7F004C9AC1 /* Build configuration list for PBXNativeTarget "AspenTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514B656C2E1D5C7F004C9AC1 /* Debug */,
+				514B656D2E1D5C7F004C9AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514B656E2E1D5C7F004C9AC1 /* Build configuration list for PBXNativeTarget "AspenTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514B656F2E1D5C7F004C9AC1 /* Debug */,
+				514B65702E1D5C7F004C9AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 514B653F2E1D5C7E004C9AC1 /* Project object */;
+}
